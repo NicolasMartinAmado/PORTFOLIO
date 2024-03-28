@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+background-image: url("https://e1.pxfuel.com/desktop-wallpaper/445/60/desktop-wallpaper-minimal-coding-minimalist-programmer.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imcv{
+    display: flex;
+    justify-content: flex-start;
+align-items: center;
+align-content: center;
+text-align: center;
+padding: 25px;
+border: 3PX YELLOW solid;
+    & img{
+       width: 400px;
+        
+   
+    
+
+    }
+    & h1{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+
+      
+      
+    }
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    & button:hover{
+background-color:yellow;
+color: rgb(0, 0, 0);
+font-weight: 600;
+    }
+  
+}
+#lik{
+    padding-top: 80px;
+  
+    
+}
+
+#perfil{
+   
+    border-top: 2px yellow solid;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+.link{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    gap: 25px;
+
+    & img{
+      width: 800px;
+    }
+& h3{
+    font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+}
+& p{
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+}
+.github{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    gap: 25px;
+    
+
+    & img{
+      width: 800px;
+     
+    }
+    & h3{
+        font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+    }
+    & p{
+        align-items: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+    }
+}
+.vercel{
+  display: flex;
+ 
+  justify-content: center;
+  text-align: center;
+  padding: 80px;
+  gap: 25px;
+  border-bottom: 2px yellow solid;
+
+  & img{
+    width: 800px;
+   
+  }
+  & h3{
+      font-family: "Archivo Black", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          color: rgb(255, 255, 255);
+  }
+  & p{
+      align-items: center;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: rgb(255, 255, 255);
+  }
+}
+
+
+.skills{
+  padding: 80px;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+}
+#intro{
+    padding: 100px;
+}
+#intro p {
+    font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+}
+.bars-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.progressbars {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  color: white;
+}
+
+.PHP {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+.JAVASCRIPT {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+.NODEJS {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+.HTML {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+.SQLMONGODB {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+
+.REACT {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+.SASS {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+.JAVA {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+.CSS {
+  padding: 30px;
+  font-family: "Crete Round", serif;
+  font-weight: 900;
+}
+
+#wpp {
+position: fixed;
+z-index: 999;
+border-radius: 50%;
+bottom: 25px;
+right: 30px;
+padding: 25px;
+display: flex;
+justify-content: flex-end
+
+}
+.botn{
+  width: 55px;
+  &:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    }
+   }
+
+   #gmail{
+    position: fixed;
+z-index: 999;
+border-radius: 50%;
+bottom: 25px;
+right: 100px;
+padding: 25px;
+display: flex;
+justify-content: flex-end
+   }
+
+
+#linked{
+   position: fixed;
+z-index: 999;
+border-radius: 50%;
+bottom: 25px;
+right: 160px;
+padding: 25px;
+display: flex;
+justify-content: flex-end
+}
+.contacto{
+  margin: 0;
+  padding: 0;
+ display: flex;
+ justify-content: center;
+}
+ 
+

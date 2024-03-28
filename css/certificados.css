@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-vector-azul-abstracto-folleto-diseno-folleto-sitio-web-fondo-pantalla-azul-geometrico-pagina-inicio-presentacion-certificado_181182-34658.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.certificadoscoder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    gap: 10px;
+  
+    & h1{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+    }
+     & img{
+        width: 1400px;
+        align-items: center;
+        align-content: center;
+     }
+     .load{
+        display: flex;
+        justify-content: center;
+        gap: 10px
+        ;
+        background-color: black;
+        color: white;
+        padding: 25px;
+     }
+}
+
+.certificadosit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    gap: 10px;
+  
+    & h1{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+    }
+     & img{
+        width: 1400px;
+        align-items: center;
+        align-content: center;
+     }
+    
+}

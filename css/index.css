@@ -1,0 +1,40 @@
+
+
+.Tittle-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
+.Tittle {
+  width: 600px;
+
+  .card-body {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    button a{
+        text-decoration: none;
+        font-weight: 600;
+        color: black;
+    }
+    button:hover{
+        background-color: rgb(171, 186, 245);
+    }
+  }
+}
+h1 {
+  text-align: center;
+  font-family: "Lexend+Exa", sans-serif;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-weight: 900;
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/16/15/25/christmas-1911637_1280.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+}
