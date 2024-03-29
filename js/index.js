@@ -2,7 +2,7 @@ const choose = document.getElementById(`ingreso`);
 
 choose.addEventListener(`click`, () => {
   Swal.fire({
-    title: `IDIOMA PORTFOLIO `,
+    title: `SELECT IDIOM`,
     showCancelButton: true,
     confirmButtonText: "ENGLISH",
     cancelButtonText: "ESPAÑOL",
