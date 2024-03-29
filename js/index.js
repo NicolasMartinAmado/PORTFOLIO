@@ -5,7 +5,9 @@ choose.addEventListener(`click`, () => {
     title: `SELECT IDIOM`,
     showCancelButton: true,
     confirmButtonText: "ENGLISH",
+    allowOutsideClick: false,
     cancelButtonText: "ESPAÑOL",
+
     reverseButtons: true,
   }).then((result) => {
     if (result.isConfirmed) {
