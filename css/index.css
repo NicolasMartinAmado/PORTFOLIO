@@ -3,7 +3,7 @@
 .Tittle-container {
   display: flex;
   justify-content: center;
-  padding-top: 300px;
+  padding-top: 100px;
 }
 .Tittle {
   width: 600px;
@@ -31,7 +31,7 @@ h1 {
   font-weight: 900;
 }
 body {
-  background-image: url(https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392_1280.jpg);
+  background-image: url(https://i.pinimg.com/originals/c9/9e/35/c99e353f761d318322c853c03ebcf21b.gif);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
