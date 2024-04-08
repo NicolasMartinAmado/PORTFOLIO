@@ -1,6 +1,6 @@
-const mailtoLink = require('mailto-link')
+
 const choose = document.getElementById(`ingreso`);
-const molto = document.getElementById(`gmail`)
+
 
 choose.addEventListener(`click`, () => {
   Swal.fire({
@@ -23,7 +23,5 @@ choose.addEventListener(`click`, () => {
 
 
 
-molto.addEventListener(`click`, () => {
-  mailtoLink({to: 'nikiamado123@gmail.com', subject: 'Nice mailto lib'})
-})
+
 
