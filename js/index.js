@@ -1,7 +1,7 @@
 
+
+
 const choose = document.getElementById(`ingreso`);
-
-
 choose.addEventListener(`click`, () => {
   Swal.fire({
     title: `SELECT IDIOM`,
@@ -19,6 +19,7 @@ choose.addEventListener(`click`, () => {
     }
   });
 });
+
 
 
 

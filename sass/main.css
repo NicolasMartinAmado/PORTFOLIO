@@ -435,6 +435,13 @@ nav div .navbar-toggler {
 nav {
   border: 3px yellow solid;
   border-radius: 5px;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/589/468/993/yellow-light-4k-8k-wallpaper-preview.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  background-repeat: no-repeat;
 }
 
 nav #cuadrado {
@@ -466,4 +473,23 @@ nav #cuadrado {
 }
 #descarga #flecha {
   background-color: white;
+}
+
+.coment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.coment .mb-31 {
+  width: 600px;
+  padding-bottom: 120px;
+}
+
+footer img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-attachment: fixed;
 }/*# sourceMappingURL=main.css.map */
