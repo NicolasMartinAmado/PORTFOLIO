@@ -31,6 +31,7 @@
       href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Crete+Round:ital@0;1&family=Dela+Gothic+One&family=Lobster&family=Madimi+One&family=Poppins:wght@500&family=Rokkitt:ital,wght@0,600;0,700;1,400;1,500;1,600&family=Teko&family=Young+Serif&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -48,7 +49,7 @@
   <body>
     <header>
 
-      <nav class="navbar navbar-expand-lg bg-body-black">
+      <nav  data-aos="zoom-in" class="navbar navbar-expand-lg bg-body-black">
         <div class="container-fluid">
           <a id="t" class="navbar-brand" href="#"
             ><img class="img-fluid" id="cuadrado" src="https://media.giphy.com/media/xT9Igo3sKbI29kWr3a/giphy.gif" alt="gif"></a
@@ -87,13 +88,13 @@
       </nav>
      </header>
      <body>
-     <div id="descarga" class="container-fluid" >
+     <div data-aos="zoom-in-down"  id="descarga" class="container-fluid" >
      <img class="img-fluid" src="https://i.gifer.com/QWsX.gif" alt="gif">
-      <a href="/downloads/2024 CURRICULUM INGLES.pdf" download>Download CV <img src="/img/pdf.png" alt=""></a>
+      <a href="/downloads/CV IDIOMA-INGLES 2024.pdf" download>Download CV <img src="/img/pdf.png" alt=""></a>
       <img id="flecha" src="img/icons8-arriba.gif" alt="flecha">
      </div>
 
-    <div class="container-fluid" id="intro">
+    <div data-aos="fade-up" class="container-fluid" id="intro">
       <div class="imcv">
         <img src="img/CV IMAGE.png" class="img-fluid" alt="PERFIL IMAGE" />
 
@@ -111,7 +112,7 @@
         TESTING, JAVASCRIPT, WEB DEVELOPMENT and PROGRAMMING BACKEND(coming
         soon)
       </p>
-      <div class="boton">
+      <div data-aos="zoom-in" class="boton">
         <a href="certificados.html" target="_blank">
           <button id="cert">SEE CERTIFICATES</button></a
         >
@@ -120,7 +121,8 @@
 
     <h2 id="perfil">PROFILE</h2>
 
-    <section class="container-fluid" id="lik">
+    <section data-aos="fade-up"
+    data-aos-duration="3000" class="container-fluid" id="lik">
       <div class="link">
         <img
           src="img/Captura de pantalla (14).png"
@@ -150,7 +152,8 @@
       </div>
     </section>
 
-    <section class="container-fluid" id="gt">
+    <section  data-aos="fade-up"
+    data-aos-duration="3000"  class="container-fluid" id="gt">
       <div class="github">
         <img
           src="img/Captura de pantalla (15).png"
@@ -179,7 +182,8 @@
       </div>
     </section>
 
-    <section class="container-fluid" id="vr">
+    <section data-aos="fade-up"
+    data-aos-duration="3000" class="container-fluid" id="vr">
       <div class="vercel">
         <img
           src="img/Captura de pantalla (16).png"
@@ -208,6 +212,27 @@
         </div>
       </div>
     </section>
+
+    <h2  class="skills">PROYECTOS</h2>
+
+    <div id="proyects"  class="container-fluid">
+      <div class="card" style="width: 18rem;">
+       <a href="https://estudiojuridicodramado.com.ar/"> <img src="img/proyect.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Pagina Web Estudio Juridico</h5>
+          <p class="card-text">Creacion e implementacion del diseño web 100% responsive de una pagina informativa, dinamica y de contacto para un Estudio Juridico en Argentina</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <a href="https://proyecto-amado.vercel.app/"> <img src="img/Captura de pantalla (42).png" class="card-img-top img-fluid" alt="..."></a>
+         <div class="card-body">
+           <h5 class="card-title">Primera Pagina Web Curso Desarrollo Web CODERHOUSE</h5>
+           <p class="card-text">Creacion e implementacion del diseño web 100% responsive de un proyecto</p>
+           
+         </div>
+       </div>
+    </div>
 
     <h2 class="skills" id="skil">SKILLS</h2>
     <div class="bars-container">
@@ -375,10 +400,6 @@
           ><img class="botn" src="img/wpp.png" alt="wpp"
         /></a>
       </div>
-      <div id="gmail" class="container-fluid">
-        <a  target="_blank" href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJlJVSNHkFjqhxZqHzWdnCrknbTPbJldbfSMTwqLHkdpRqgclSZXXGNGfXzkCrSRxVtQQBB"><img class="botn" src="img/gmail.png" alt="gmail"></a>
-      
-      </div>
       <div id="linked" class="container-fluid">
         
         <a
@@ -389,6 +410,10 @@
       </div>
     </div>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

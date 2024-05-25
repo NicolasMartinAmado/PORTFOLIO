@@ -3,13 +3,21 @@
 .Tittle-container {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 300px;
+  
 }
 .Tittle {
-  width: 600px;
+  width: 600px;  
+  margin: auto;
+  display: table;
 
   .card-body {
+    margin: auto;
+    display: table;
     align-items: center;
+    width: 600px;
+    padding: 100px;
+    border: 2px rgb(255, 255, 255) solid;
     align-content: center;
     text-align: center;
     button a{
@@ -24,6 +32,7 @@
 }
 h1 {
   text-align: center;
+  white-space: nowrap;
   font-family: "Lexend+Exa", sans-serif;
   display: flex;
   color: white;
@@ -31,10 +40,47 @@ h1 {
   font-weight: 900;
 }
 body {
-  background-image: url(https://i.pinimg.com/originals/c9/9e/35/c99e353f761d318322c853c03ebcf21b.gif);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-image: url(https://million-wallpapers.ru/wallpapers/0/58/471307004343962/flor-negra-y-amarilla-sobre-fondo-negro.jpg);
+
   background-size: cover;
-  object-fit: cover;
-  object-position: center;
+  background-position: center;
+  height: 100vh;
+
+}
+
+@media (max-width: 950px){
+  .Tittle {
+    width: 600px;  
+    margin: auto;
+    display: table;
+  
+    .card-body {
+      margin: auto;
+      display: table;
+      align-items: center;
+      width: 300px;
+      padding: 100px;
+      border: 2px rgb(255, 255, 255) solid;
+      align-content: center;
+      text-align: center;
+      button a{
+          text-decoration: none;
+          font-weight: 600;
+          color: black;
+      }
+      button:hover{
+          background-color: rgb(171, 186, 245);
+      }
+    }
+  }
+  h1{
+    font-size: 20px;
+  }
+ 
+}
+
+@media (max-width: 568px){
+  h1{
+    font-size: 15px;
+  }
 }

@@ -8,6 +8,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   
   .imcv{
@@ -153,6 +154,7 @@ body {
               font-weight: 400;
               font-style: normal;
               color: rgb(255, 255, 255);
+              border-top: 2px yellow solid;
   }
   #intro{
       padding: 100px;
@@ -274,11 +276,13 @@ body {
   z-index: 999;
   border-radius: 50%;
   bottom: 25px;
-  right: 160px;
+  right: 100px;
+
   padding: 25px;
   display: flex;
   justify-content: flex-end
   }
+
   .contacto{
     margin: 0;
     padding: 0;
@@ -349,6 +353,16 @@ body {
   }
 
   @media (max-width: 820px){
+
+    #proyects{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+      flex-direction: column;
+      gap: 15px;
+    }
   
     #wpp {
       position: fixed;
@@ -369,16 +383,7 @@ body {
           }
          }
       
-         #gmail{
-          position: fixed;
-      z-index: 999;
-      border-radius: 50%;
-      bottom: 5px;
-      right: 60px;
-    
-      display: flex;
-      justify-content: flex-end
-         }
+       
       
       
       #linked{
@@ -386,8 +391,7 @@ body {
       z-index: 999;
       border-radius: 50%;
       bottom: 5px;
-      right: 105px;
-   
+      right: 60px;
       display: flex;
       justify-content: flex-end
       }
@@ -520,3 +524,9 @@ body {
   object-fit: cover;
   background-attachment: fixed;
  }
+
+#proyects{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
