@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Exa:wght@100..900&family=Madimi+One&family=Poppins:wght@500&family=Rokkitt:ital,wght@0,600;0,700;1,400;1,500;1,600&family=Teko&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/no.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Portfolio Amado Nicolas</title>
+  </head>
+
+  <body>
+    <div data-aos="zoom-in" class="Tittle-container container-fluid">
+      
+      <div data-aos="zoom-in" class="Tittle container-fluid">
+        <div data-aos="zoom-in" class="card container-fluid">
+          <div data-aos="zoom-in" class="card-body container-fluid">
+            <h1 data-aos="zoom-in" id="texto" class="container-fluid">BIENVENIDOS A MI PORTFOLIO / <br> WELCOME TO MY PORTFOLIO</h1>
+            <button data-aos="zoom-in" id="ingreso" >Ingresar al portfolio</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const choose = document.getElementById(`ingreso`);
+choose.addEventListener(`click`, () => {
+  Swal.fire({
+    title: `SELECT IDIOM`,
+    showCancelButton: true,
+    confirmButtonText: "ENGLISH",
+    allowOutsideClick: false,
+    cancelButtonText: "ESPAÑOL",
+
+    reverseButtons: true,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      return (pagina = location.href = `portfolioenglish`);
+    } else {
+      return paginaingles = window.location.href = `portfolio`;
+    }
+  });
+});
+const texto = document.getElementById('texto');
+const textoCompleto = 'WELCOME TO MY PORTFOLIOO';
+let indice = 0;
+let velocidad = 50; // Ajusta la velocidad de escritura (en milisegundos por carácter)
+let sonido = new Audio('https://m.youtube.com/watch?v=KRvoQn27yQ0'); // Opcional: sonido de máquina de escribir
+
+function escribir() {
+  if (indice < textoCompleto.length) {
+    texto.textContent = textoCompleto.substring(0, indice);
+    indice++;
+
+    if (sonido) {
+      sonido.currentTime = 0; // Reinicia el sonido
+      sonido.play();
+    }
+
+    setTimeout(escribir, velocidad);
+  }
+}
+
+escribir();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
