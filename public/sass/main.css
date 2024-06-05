@@ -10,9 +10,13 @@ body {
   background-size: cover;
 }
 
+h1 {
+  text-align: center;
+}
+
 .imcv {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   align-content: center;
   text-align: center;
