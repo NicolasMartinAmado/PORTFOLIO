@@ -465,6 +465,11 @@ body {
      
   }
   @media (max-width: 650px){
+    #intro{
+      padding: 0px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
     #descarga a{
       padding: 20px;
 
