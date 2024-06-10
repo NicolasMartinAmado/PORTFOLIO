@@ -395,6 +395,10 @@ nav div .navbar-toggler {
   }
 }
 @media (max-width: 820px) {
+  #intro {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
   nav div a #cuadrado {
     width: 50px;
   }
@@ -444,7 +448,14 @@ nav div .navbar-toggler {
 }
 @media (max-width: 650px) {
   #intro {
-    padding: 0px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  #descarga {
+    padding-top: 10px;
+    padding-bottom: 120px;
+  }
+  #intro {
     background-attachment: fixed;
     background-size: cover;
   }
@@ -453,6 +464,7 @@ nav div .navbar-toggler {
   }
   #descarga {
     font-size: 12px;
+    padding-bottom: 120px;
   }
   #descarga img {
     width: 30px;
@@ -488,9 +500,6 @@ nav div .navbar-toggler {
     font-size: 30px;
     font-style: normal;
     color: rgb(255, 255, 255);
-  }
-  #intro {
-    padding: 25px;
   }
   #intro p {
     font-size: 18px;

@@ -197,6 +197,7 @@ body {
       padding: 20px;
       background-attachment: fixed;
       background-size: cover;
+     
   }
   #intro p {
       font-family: "Russo One", sans-serif;
@@ -404,6 +405,14 @@ body {
   }
 
   @media (max-width: 820px){
+
+    #intro{
+      padding-top: 80px;
+      padding-bottom: 120px;
+    
+    }
+    
+
     nav div a #cuadrado{
       width: 50px;
     }
@@ -465,17 +474,33 @@ body {
      
   }
   @media (max-width: 650px){
+
+    #x{
+      height: 100vh;
+    }
     #intro{
-      padding: 0px;
+      padding-top: 100px;
+      padding-bottom: 120px;
+    
+    }
+    #descarga{
+      padding-top: 10px;
+      padding-bottom: 120px;
+    }
+    #intro{
+      
       background-attachment: fixed;
       background-size: cover;
+      
   }
+ 
     #descarga a{
       padding: 20px;
 
     }
     #descarga{
       font-size: 12px;
+      padding-bottom: 120px;
     }
     #descarga img{
       width: 30px;
@@ -496,31 +521,30 @@ body {
       }
   }
   }
-  @media (max-width: 500){
-    .imcv{
-      display: flex;
-      justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  padding: 25px;
-  border: 3PX YELLOW solid;
-      & img{
-         width: 300px;
-      }
-      & h1{
-          font-family: "Archivo Black", sans-serif;
-          font-weight: 400;
-          font-size: 30px;
-          font-style: normal;
-          color: rgb(255, 255, 255);
-      }
+  @media (max-width: 480px){
+    #x{
+      height: 100vh;
+    }
+
+    #intro{
+      
+      padding-top: 300px;
+      padding-bottom: 220px;
+    
+    }
+    #descarga{
+      padding-top: 10px;
+      padding-bottom: 120px;
+    }
+ 
+ 
+    #descarga a{
+      padding: 20px;
+
+    }
+   
   }
 
-
-  #intro{
-    padding: 25px;
-  }
   #intro p{
     font-size: 18px;
   }
