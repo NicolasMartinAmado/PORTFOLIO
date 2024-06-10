@@ -80,7 +80,71 @@ body {
 }
 
 @media (max-width: 568px){
+
+  .Tittle-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    align-items:center ;
+    align-content: center;
+    align-self: center;
+    width: auto;
+    
+  }
+
+.Tittle {
+    width: 300px;  
+    margin: auto;
+    display: table;
+  
+    .card-body {
+      margin: auto;
+      display: table;
+      align-items: center;
+      width: 100px;
+      padding: 70px;
+      border: 2px rgb(255, 255, 255) solid;
+      align-content: center;
+      text-align: center;
+      button a{
+          text-decoration: none;
+          font-weight: 600;
+          color: black;
+      }
+      button:hover{
+          background-color: rgb(171, 186, 245);
+      }
+    }
+  }
   h1{
     font-size: 15px;
   }
+}
+
+@media (max-width: 420px){
+  .Tittle {
+    width: 300px;  
+    margin: auto;
+    display: table;
+  
+    .card-body {
+      margin: auto;
+      display: table;
+      align-items: center;
+      width: 100px;
+      padding: 50px;
+      border: 2px rgb(255, 255, 255) solid;
+      align-content: center;
+      text-align: center;
+      button a{
+          text-decoration: none;
+          font-weight: 600;
+          color: black;
+      }
+      button:hover{
+          background-color: rgb(171, 186, 245);
+      }
+    }
+  }
+
 }
