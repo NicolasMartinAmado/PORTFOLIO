@@ -48,6 +48,38 @@ h1 {
   padding-top: 80px;
 }
 
+#form form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+  color: white;
+  width: 100%;
+}
+#form form button:hover {
+  background-color: rgb(239, 239, 141);
+  color: black;
+}
+
+#form form input {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  align-self: center;
+  text-align: center;
+  align-content: center;
+}
+
+#form {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 160px;
+}
+
 #perfil {
   border-top: 2px yellow solid;
   text-align: center;
@@ -152,7 +184,7 @@ h1 {
 }
 
 #intro {
-  padding: 100px;
+  padding: 30px;
 }
 
 #intro p {
@@ -273,6 +305,13 @@ nav div .navbar-toggler {
   justify-content: flex-start;
 }
 
+#descarga a {
+  padding: 100px;
+  text-decoration: none;
+  font-weight: 800;
+  font-family: "Archivo Black", sans-serif;
+}
+
 #linked {
   position: fixed;
   z-index: 999;
@@ -343,11 +382,26 @@ nav div .navbar-toggler {
   .imcv h1 {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
+    font-size: 20px;
     font-style: normal;
     color: rgb(255, 255, 255);
   }
+  #descarga a {
+    text-decoration: none;
+    font-weight: 800;
+    font-family: "Archivo Black", sans-serif;
+  }
 }
 @media (max-width: 820px) {
+  #form form input {
+    width: 300px;
+  }
+  #descarga a {
+    padding: 40px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: "Archivo Black", sans-serif;
+  }
   #proyects {
     display: flex;
     justify-content: center;
@@ -384,6 +438,28 @@ nav div .navbar-toggler {
   }
 }
 @media (max-width: 650px) {
+  #descarga a {
+    padding: 20px;
+  }
+  #descarga {
+    font-size: 12px;
+  }
+  #descarga img {
+    width: 30px;
+  }
+  .imcv img {
+    width: 270px;
+  }
+  .imcv h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    width: 100px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 500) {
   .imcv {
     display: flex;
     justify-content: flex-start;
@@ -469,15 +545,12 @@ nav #cuadrado {
 
 #descarga {
   display: flex;
-  padding-top: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
   text-align: center;
-}
-#descarga #flecha {
-  background-color: white;
+  padding-bottom: 41px;
 }
 
 .coment {
@@ -503,29 +576,6 @@ footer img {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 50px;
-}
-
-#form form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-  border-radius: 15px;
-  text-align: center;
-  align-content: center;
-  color: white;
-  width: 600px;
-}
-#form form button:hover {
-  background-color: rgb(239, 239, 141);
-}
-
-#form {
-  width: 100%;
-  gap: 20px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 160px;
 }
 
 #vr div div p a img:hover {
