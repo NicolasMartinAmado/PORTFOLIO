@@ -184,7 +184,9 @@ h1 {
 }
 
 #intro {
-  padding: 30px;
+  padding: 20px;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #intro p {
@@ -393,6 +395,9 @@ nav div .navbar-toggler {
   }
 }
 @media (max-width: 820px) {
+  nav div a #cuadrado {
+    width: 50px;
+  }
   #form form input {
     width: 300px;
   }

@@ -194,7 +194,9 @@ body {
               border-top: 2px yellow solid;
   }
   #intro{
-      padding: 30px;
+      padding: 20px;
+      background-attachment: fixed;
+      background-size: cover;
   }
   #intro p {
       font-family: "Russo One", sans-serif;
@@ -402,6 +404,9 @@ body {
   }
 
   @media (max-width: 820px){
+    nav div a #cuadrado{
+      width: 50px;
+    }
 
     #form form input{
 
