@@ -447,6 +447,9 @@ nav div .navbar-toggler {
   }
 }
 @media (max-width: 650px) {
+  #x {
+    height: 100vh;
+  }
   #intro {
     padding-top: 100px;
     padding-bottom: 120px;
@@ -481,57 +484,57 @@ nav div .navbar-toggler {
     color: rgb(255, 255, 255);
   }
 }
-@media (max-width: 500) {
-  .imcv {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    padding: 25px;
-    border: 3PX YELLOW solid;
+@media (max-width: 480px) {
+  #x {
+    height: 100vh;
   }
-  .imcv img {
-    width: 300px;
+  #descarga {
+    padding-bottom: 25px;
   }
-  .imcv h1 {
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-  }
-  #intro p {
-    font-size: 18px;
-  }
-  #lik {
-    padding-bottom: 22px;
-  }
-  #gt {
-    padding-bottom: 22px;
-  }
-  #vr {
-    padding-bottom: 22px;
-  }
-  .link {
-    padding: 15px;
-  }
-  .github {
-    padding: 15px;
-  }
-  .vercel {
-    padding: 15px;
-  }
-  .link .txt p {
-    font-size: 18px;
-  }
-  .github .txt p {
-    font-size: 18px;
-  }
-  .vercel .txt p {
-    font-size: 18px;
+  #descarga a {
+    padding: 20px;
   }
 }
+#intro p {
+  font-size: 18px;
+}
+
+#lik {
+  padding-bottom: 22px;
+}
+
+#gt {
+  padding-bottom: 22px;
+}
+
+#vr {
+  padding-bottom: 22px;
+}
+
+.link {
+  padding: 15px;
+}
+
+.github {
+  padding: 15px;
+}
+
+.vercel {
+  padding: 15px;
+}
+
+.link .txt p {
+  font-size: 18px;
+}
+
+.github .txt p {
+  font-size: 18px;
+}
+
+.vercel .txt p {
+  font-size: 18px;
+}
+
 nav {
   border: 3px yellow solid;
   border-radius: 5px;
@@ -595,6 +598,19 @@ footer img {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 50px;
+}
+
+#proyects .card .card-body {
+  text-align: center;
+  font-weight: 600;
+}
+
+#proyects div a img {
+  height: 180px;
+}
+
+#proyects .card .card-body h5 {
+  font-weight: 900;
 }
 
 #vr div div p a img:hover {

@@ -526,15 +526,10 @@ body {
       height: 100vh;
     }
 
-    #intro{
-      
-      padding-top: 300px;
-      padding-bottom: 220px;
-    
-    }
+  
     #descarga{
-      padding-top: 10px;
-      padding-bottom: 120px;
+
+      padding-bottom: 25px;
     }
  
  
@@ -582,7 +577,7 @@ body {
    
     font-size: 18px;
   }
-  }
+  
   nav{
     border: 3px yellow solid;
     border-radius: 5px;
@@ -652,9 +647,20 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 50px;
+
+}
+#proyects .card .card-body{
+  text-align: center;
+  font-weight: 600;
+
 }
 
-
+#proyects div a img{
+  height: 180px
+}
+#proyects .card .card-body h5 {
+  font-weight: 900;
+}
 
 #vr div div p a img:hover{
 transform: scale(1.2);
