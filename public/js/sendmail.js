@@ -41,3 +41,18 @@ icon: "success"
     })
     .catch(error => console.error(error));
 }
+
+
+document.addEventListener(`keyup`, e =>{
+   if (e.target.matches(`#buscador`)){
+
+
+    document.querySelectorAll(".technologies").forEach(tech =>{
+        tech.textContent.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase())
+        ?tech.classList.remove("filtro")
+        :tech.classList.add("filtro")
+    })
+   }
+
+
+})
