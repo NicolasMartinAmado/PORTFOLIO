@@ -55,7 +55,7 @@ app.post('/enviar-opinion', async (req, res) => {
       port: 587,
       auth: {
           user: 'nikiamado123@gmail.com', 
-          pass: 'boja yrjt wpee psbz' 
+          pass: 'sztn zfnn dlwz tzus' 
       }
   });
 
