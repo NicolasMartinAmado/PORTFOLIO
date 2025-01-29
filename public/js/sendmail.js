@@ -29,11 +29,7 @@ function enviarOpinion(data) {
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            Swal.fire({
-title:'Su opinión ha sido enviada correctamente.',
-text: "Respondere a la brevedad, revise su casilla de correo",
-icon: "success"
-            });
+            alert(`MESSAGE SENT`)
             formulario.reset();
         } else {
             alert('Error al enviar la opinión.');
